@@ -1,0 +1,9 @@
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aqua;
+}
+
+p#intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:burlywood
+}
