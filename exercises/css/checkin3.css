@@ -1,0 +1,80 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 100px 300px 300px; /* Define 3 rows */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Define 2 equal columns for the entire grid */
+    border: 1px solid black;
+    gap: 0; /* Remove any gaps between columns */
+}
+
+header {
+    background-color: #6ebcdd;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 7; /* Spans both columns */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 50px;
+
+}
+
+.emptyspaceleft {
+    background-color: blanchedalmond;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1; /* Occupies the first column */
+    grid-column-end: 4;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.emptyspaceright {
+    background-color: blanchedalmond;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4; /* Occupies the second column */
+    grid-column-end: 7;
+}
+
+.column1 {
+    background-color: #add8e6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1; /* Occupies the second column */
+    grid-column-end: 3;
+    padding: 15px;
+
+}
+
+.column2 {
+    background-color: rgb(86, 99, 86);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3; /* Occupies the second column */
+    grid-column-end: 5;}
+
+.column3 {
+    background-color: #add8e6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5; /* Occupies the second column */
+    grid-column-end: 7;
+    padding: 15px;
+
+}
+.column3 img {
+    float: left; /* Makes the image float to the left */
+    margin-right: 15px; /* Adds space between the image and the text */
+    margin-bottom: 10px; /* Adds space below the image */
+    width: 50%; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-image: 3px solid #000; /* Add a border to the image */
+}
+div {
+    overflow: auto;
+  }
